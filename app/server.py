@@ -12,7 +12,14 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1ah1Lsjxjb5vvv-jd4D3awefsrkCzVRk8'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Black Widow',
+ 'Bruce Banner',
+ 'Bucky',
+ 'Hawkeye',
+ 'Starlord',
+ 'Steve Rogers',
+ 'Thor',
+ 'Tony Stark']
 path = Path(__file__).parent
 
 app = Starlette()
